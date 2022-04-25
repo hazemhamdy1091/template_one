@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Responsive Multipage Website | HTML, CSS, JS</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/contact.css">
+
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+        <!-- google fonts  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <!-- ----------------- NAVBAR-------------------- -->
+        <nav>
+            <div class="container nav-container">
+                <a href="index.html"><h4>Logo</h4></a>
+                <ul class="nav-menu">
+                    <li><a target="_blank" href="index.html">Home</a></li>
+                    <li><a target="_blank" href="about.html">About</a></li>
+                    <li><a target="_blank" href="courses.html">Courses</a></li>
+                    <li><a target="_blank" href="contact.html">Contact</a></li>
+                </ul>
+                <button id="open-menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <button id="close-menu-btn">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+        </nav>
+
+
+
+
+
+        <section class="contact">
+            <div class="container contact-container">
+                <aside class="contact-aside">
+                    <div class="aside-image">
+                        <img src="./images/contact.svg" alt="">
+                    </div>
+                    <h2>contact Us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                    <ul class="contact-details">
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <h5>+20102565632556</h5>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-dice-four"></i>                            <h5>support-us.com</h5>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h5>accrea , Ghana</h5>
+                        </li>
+                    </ul>
+                    <ul class="contact-socials">
+                        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                </aside>
+
+                <form action="">
+                    <div class="form-name">
+                        <input type="text" name="First Name" placeholder="First Name" required>
+                        <input type="text" name="Last Name" placeholder="Last Name" required>
+                    </div>
+                    <input oninput="valdation ()" type="email" name="E-mail" placeholder="Enter your E-mail" required>
+
+                    <span id="text"></span>
+                    <textarea name="text" rows="7" placeholder="messege us"></textarea>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+        <footer class="footer">
+            <div class="container footer-container">
+                <div class="footer-1">
+                    <a href="index.html" class="footer-logo"><h4>LOGO</h4></a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, cum.</p>
+                </div>
+                <div class="footer-2">
+                    <h4>Permalinks</h4>
+                    <ul class="permalinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-3">
+                    <h4>Privacy</h4>
+                    <ul class="privacy">
+                        <li><a href="#">privacy Policy</a></li>
+                        <li><a href="#">Terms and conditions</a></li>
+                        <li><a href="#">refund Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-4">
+                    <h4>Contact Us</h4>
+                    <div>
+                        <p>0100000000000</p>
+                        <p>0110000000000</p>
+                    </div>
+                    <ul class="footer-social">
+                        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <small>copyright &copy; LOGO youtube </small>
+            </div>
+        </footer>
+
+
+        <script src="main.js"></script>
+    </body>
+
+</html>
